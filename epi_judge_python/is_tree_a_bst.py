@@ -3,7 +3,6 @@ from test_framework import generic_test
 
 
 def is_binary_tree_bst(tree: BinaryTreeNode) -> bool:
-    # TODO - you fill in here.
     return True
 
 

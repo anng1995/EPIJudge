@@ -6,7 +6,16 @@ from test_framework.test_utils import enable_executor_hook
 
 
 def replace_and_remove(size: int, s: List[str]) -> int:
-    # TODO - you fill in here.
+    a_count = 0
+    replace_idx = 0
+
+    for i, char in enumerate(s):
+        if char != 'b':
+            s[replace_idx] = s[i]
+            replace_idx += 1
+        if char == 'a':
+            a_count += 1
+
     return 0
 
 
