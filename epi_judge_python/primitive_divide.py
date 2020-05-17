@@ -2,7 +2,9 @@ from test_framework import generic_test
 
 
 def divide(x: int, y: int) -> int:
-    # TODO - you fill in here.
+    print("hello")
+
+
     return 0
 
 
